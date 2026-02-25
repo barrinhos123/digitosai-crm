@@ -27,6 +27,7 @@ func (m *CRMModule) Info() registry.ModuleInfo {
 		Name:        "Customer CRM",
 		Description: "Manage your customers, leads, and interactions.",
 		Icon:        "👤", // Using emoji as icon for simplicity
+		Category:    "Sales & Marketing",
 		Path:        "/crm",
 	}
 }
